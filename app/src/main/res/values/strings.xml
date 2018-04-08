@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OnlineShoppingUI</string>
+    <string name="navigation_header_text">Mr Bean</string>
+    <string name="navigation_header_emailText">MrBeanTheGreat@pogo.com</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_header_height">160dp</dimen>
+    <dimen name="navigation_header_padding">16dp</dimen>
+    <dimen name="image_size">56dp</dimen>
+    <dimen name="navigation_header_textview_padding">8dp</dimen>
+    <dimen name="navigation_header_email_padding">0dp</dimen>
+    <dimen name="list_layout_textPadding">10dp</dimen>
+</resources>
