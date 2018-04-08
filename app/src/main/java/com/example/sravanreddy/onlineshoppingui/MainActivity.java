@@ -30,7 +30,7 @@ android.support.v7.widget.Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.navigation_drawer);
         toolbar=findViewById(R.id.toolBar);
         drawerLayout=findViewById(R.id.drawerLayout);
         setSupportActionBar(toolbar);
@@ -44,9 +44,9 @@ android.support.v7.widget.Toolbar toolbar;
         populateList();
         MyAdapter myAdapter=new MyAdapter(productsList, MainActivity.this);
         recyclerView.setAdapter(myAdapter);
-//        ActionBarDrawerToggle toggle =new ActionBarDrawerToggle(this, drawerLayout, toolbar,R.string.open_drawer,R.string.close_drawer);
-//        drawerLayout.setDrawerListener(toggle);
-//        toggle.syncState();
+        ActionBarDrawerToggle toggle =new ActionBarDrawerToggle(this, drawerLayout, toolbar,R.string.open_drawer,R.string.close_drawer);
+        drawerLayout.setDrawerListener(toggle);
+        toggle.syncState();
     }
 
     private void populateList() {

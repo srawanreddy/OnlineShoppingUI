@@ -21,6 +21,7 @@ import java.util.List;
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private static final  int TYPE_HEAD=0;
     private static final  int TYPE_LIST=1;
+    public static int span;
     List<Products> myList;
     Context context;
 
@@ -32,6 +33,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View headerLayout=LayoutInflater.from(parent.getContext()).inflate(R.layout.list_layout, null);
+        span=2;
         return new MyViewHolder(headerLayout, viewType);
     }
 
