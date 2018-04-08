@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/navigation_header_text"
             android:padding="@dimen/navigation_header_textview_padding"
+            android:textColor="#000"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
     <TextView
         android:id="@+id/emailId"
@@ -31,5 +32,6 @@
         android:layout_height="wrap_content"
         android:text="@string/navigation_header_emailText"
         android:paddingTop="@dimen/navigation_header_email_padding"
+        android:textColor="#000"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 </LinearLayout>
